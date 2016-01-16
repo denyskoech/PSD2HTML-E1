@@ -118,6 +118,8 @@
     float: left;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 .invertbox p {
@@ -135,4 +137,47 @@
     margin-top: 25px;
     margin-bottom: 25px;
     color: #2f2d2d;
+}
+
+.space {
+    height: 120px;
+    background-color: #49e149;
+    padding-top: 25px;
+    padding-bottom: 25px; 
+}
+
+.space p {
+    color: snow;
+    text-align: center;
+    font-size: 25px; 
+}
+
+.textbottom {
+    height: 300px;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #2f2d2d;
+}
+
+.textbottom p {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.footer {
+    height: 100px;
+    background-color: #3f3a3a;
+    padding-top: 30px;
+    padding-bottom: 40px; 
+}
+
+.footer p {
+    color: #e7e762;
+    text-align: center;
+    font-size: 15px; 
 }
