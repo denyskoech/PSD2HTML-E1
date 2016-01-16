@@ -1,12 +1,12 @@
 #main {
     width: 100%;
-    height: 22500px;
+    height: 2250px;
     background-color: #f6f1f1;
 }
 #mainsection {
     width: 80%;
-    padding-top: 25px;
-    padding-bottom: 250px;
+    padding-top: 15px;
+    padding-bottom: 25px;
     margin-left: 10%;
     margin-right: 10%;
     height: 2200px;
@@ -49,6 +49,54 @@
     width: 100%;
     height: 400px;
     font-family: 'Montserrat', sans-serif;
-    text-align: left
+    text-align: left;
 }
 
+.splash p {
+    float: left;
+}
+
+.brief {
+    height: 200px;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #2f2d2d;  
+}
+
+.brief p {
+    color: lightgray;
+    font-size: 20px;
+}
+
+.trio {
+    height: 200px;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #2f2d2d;
+    text-align: center;
+}
+
+.trio p {
+    color: lightgray;
+    font-size: 20px;
+    text-align: center;
+}
+
+.triobox {
+    width: 28%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
