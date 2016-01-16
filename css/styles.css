@@ -1,15 +1,15 @@
 #main {
     width: 100%;
-    height: 2350px;
+    height: 2138px;
     background-color: #f6f1f1;
 }
 #mainsection {
     width: 43%;
+    height: 2088px;
     padding-top: 15px;
     padding-bottom: 25px;
     margin-left: 28%;
     margin-right: 28%;
-    height: 2300px;
 }
 
 .logo {
@@ -31,7 +31,7 @@
 .logo2 {
     float: right;
     color: #b3acac;
-    padding-top: 40px;
+    padding-top: 60px;
     padding-right: 10px;
     padding-bottom: 0px;
 }
@@ -39,14 +39,12 @@
 .logo2 p {
     float: right;
     font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
+    font-size: 13px;
 }
 
 .splash {
     background: url(../images/big_img.jpg) no-repeat; 
-    /*background-repeat: no-repeat;*/
     height: 266px;
-    
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
@@ -65,11 +63,12 @@
     margin-top: 25px;
     margin-bottom: 25px;
     color: #2f2d2d;  
+    font-size: 15px;
 }
 
 .brief p {
     color: lightgray;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .trio {
@@ -83,11 +82,12 @@
     margin-bottom: 25px;
     color: #2f2d2d;
     text-align: center;
+    font-size: 15px;
 }
 
 .trio p {
     color: lightgray;
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 
@@ -101,12 +101,9 @@
 }
 
 .invert1 {
-    height: 300px;
+    width: 100%;
+    height: 246px;
     background-color: white;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 25px;
-    padding-top: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
     color: #2f2d2d;
@@ -115,24 +112,17 @@
 .invertbox {
     width: 40%;
     float: left;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    font-size: 15px;
 }
 
 .invertbox p {
     color: lightgray;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .invert2 {
-    height: 300px;
+    height: 246px;
     background-color: white;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-bottom: 25px;
-    padding-top: 25px;
     margin-top: 25px;
     margin-bottom: 25px;
     color: #2f2d2d;
@@ -161,11 +151,12 @@
     margin-top: 25px;
     margin-bottom: 25px;
     color: #2f2d2d;
+    font-size: 15px;
 }
 
 .textbottom p {
     color: lightgray;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .footer {
@@ -182,5 +173,5 @@
 .footer p {
     color: #e7e762;
     text-align: center;
-    font-size: 18px;  
+    font-size: 15px;  
 }
