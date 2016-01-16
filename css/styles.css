@@ -1,8 +1,14 @@
+/*
+Copyright: Dennis Cheruiyot 
+Distribution license will be issued upon payment
+*/
+
 #main {
     width: 100%;
     height: 2138px;
     background-color: #f6f1f1;
 }
+
 #mainsection {
     width: 43%;
     height: 2088px;
@@ -22,9 +28,10 @@
     float: left;
     padding top: 0px;
     padding-left: 20px;
-    padding-bottom: 15px; 
+    padding-bottom: 10px;
+    margin-top: 30px;
     color: #f1f119;
-    font-size: 45px;
+    font-size: 50px;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -40,17 +47,31 @@
     float: right;
     font-family: 'Open Sans', sans-serif;
     font-size: 13px;
+    text-align: left;
+}
+
+.logo2p {
+    color: white;
 }
 
 .splash {
     background: url(../images/big_img.jpg) no-repeat; 
+    width: 100%;
     height: 266px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;
+    margin-top: 25px;
 }
 
-.splash p {
+.splashp {
+    width: 100%;
+    padding-left: 5%;
     float: left;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #2f2d2d; 
+}
+
+.spla {
+    font-size: 10px;
 }
 
 .brief {
@@ -67,7 +88,7 @@
 }
 
 .brief p {
-    color: lightgray;
+    color: #c0c0c0;
     font-size: 18px;
 }
 
@@ -86,7 +107,7 @@
 }
 
 .trio p {
-    color: lightgray;
+    color: #c0c0c0;
     font-size: 18px;
     text-align: center;
 }
@@ -101,7 +122,6 @@
 }
 
 .invert1 {
-    width: 100%;
     height: 246px;
     background-color: white;
     margin-top: 25px;
@@ -109,14 +129,26 @@
     color: #2f2d2d;
 }
 
-.invertbox {
+.invertbox1 {
     width: 40%;
     float: left;
     font-size: 15px;
 }
 
-.invertbox p {
-    color: lightgray;
+.invertbox2 {
+    width: 40%;
+    float: right;
+    font-size: 15px;
+    text-align: left;
+}
+
+.invertbox1 p {
+    color: #c0c0c0;
+    font-size: 18px;
+}
+
+.invertbox2 p {
+    color: #c0c0c0;
     font-size: 18px;
 }
 
@@ -130,7 +162,7 @@
 
 .space {
     height: 120px;
-    background-color: #49e149;
+    background-color: #5bfd5b;
     padding-top: 25px;
     padding-bottom: 25px; 
 }
@@ -155,12 +187,12 @@
 }
 
 .textbottom p {
-    color: lightgray;
+    color: #c0c0c0;
     font-size: 18px;
 }
 
 .footer {
-    height: 100px;
+    height: 75px;
     background-color: #3f3a3a;
     margin-top: 25px;
     margin-bottom: 25px;
