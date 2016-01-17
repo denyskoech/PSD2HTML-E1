@@ -32,7 +32,7 @@ Distribution license will be issued upon payment
     margin-top: 30px;
     color: #f1f119;
     font-size: 50px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .logo2 {
@@ -63,7 +63,8 @@ Distribution license will be issued upon payment
 
 .splashp {
     width: 100%;
-    padding-left: 5%;
+    padding-top: 0px;
+    padding-left: 3%;
     float: left;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
@@ -71,11 +72,18 @@ Distribution license will be issued upon payment
 }
 
 .spla {
-    font-size: 10px;
+    font-size: 10px; 
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 3px;
+
+}
+
+hr {
+  width: 90%;
 }
 
 .brief {
-    height: 200px;
+    height: 220px;
     background-color: white;
     padding-left: 5%;
     padding-right: 5%;
@@ -92,6 +100,20 @@ Distribution license will be issued upon payment
     color: #c0c0c0;
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
+}
+
+.button {
+    border-radius: 8px;
+    background-color: #3e3f3e; 
+    border: none;
+    color: white;
+    padding: 7px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px ;
+    cursor: pointer;
 }
 
 .trio {
